@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors({
     origin:"*"
 }))
-
+//https://careful-shrug-cod.cyclic.app
 app.use("/fwt",userRouter)
 app.use(authenticate)
 app.use("/notes",noteRouter)
